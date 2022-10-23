@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-image: url("https://cdn.pixabay.com/photo/2017/05/19/06/22/desk-2325627_960_720.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  width: 100%;
+  padding: 10px;
+  margin-top: 1rem;
+  border: 5px solid rgb(147 176 171);
+  border-radius: 20px;
+  background-color: rgb(217 217 217);
+}
+.tasklist {
+  background-color: rgb(147 176 171);
+}
+.header {
+  display: inline-flex;
+  font-size: 2rem;
+  padding: 1rem;
+}
