@@ -39,6 +39,7 @@ const AddTask = ({ getTask }) => {
             placeholder="Enter task"
             onChange={(e) => setTask(e.target.value)}
             value={task}
+            required
             // yukardaki onChange içersine sadece fonksiyon ismini yazarak yukarıda fonksiyonuda tanımlayabilirdik. aşağıdaki fonk gibi
             // const handleDate = (e) => {
             //   setDate(e.target.value);
@@ -53,6 +54,7 @@ const AddTask = ({ getTask }) => {
             className="text-muted "
             onChange={(e) => setDate(e.target.value)}
             value={date}
+            required
           />
         </Form.Group>
         <Button
